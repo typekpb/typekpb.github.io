@@ -1,0 +1,29 @@
+baseURL = "https://typekpb.github.io/"
+languageCode = "en-US"
+title = "Peter Butkovic"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/peter_butkovic.png"
+  author = "Peter Butkovic"
+  description = "Peter Butkovic"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "typekpb"
+  Email         = "butkovic@gmail.com"
+  Twitter       = "typek_pb"
+  LinkedIn      = "butkovic"
+  Stackoverflow = "users/1581069/peter_butkovic"
+  Medium        = "butkovic"
+
